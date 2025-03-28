@@ -3,14 +3,6 @@ This is the Index.html file?
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
-
-
-[Play a terible Dino Jump game!](./dino.html)
-
-
-[Foccacia Recipe](./focaccia.html)
-
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
@@ -97,13 +89,21 @@ end
   - level 2 item
 - level 1 item
 
+
+### Links to HTML pages:
+
+
+* [Play a terible Dino Jump game](./dino.html)
+* [Foccacia Recipe](./focaccia.html)
+
+
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Sam](./images/sama_ghibl.jpg)
 
 
 ### Definition lists can be used with HTML syntax.
