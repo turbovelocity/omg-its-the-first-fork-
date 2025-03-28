@@ -1,5 +1,5 @@
 #theme: jekyll-theme-minimal
-remote_theme: "jekyll/minima@1e8a445"
+remote_theme: "jekyll/minima"
 
 title: Octocat's homepage
 
@@ -13,6 +13,8 @@ author:
   name: Andy M. Azing
   email: "student@jointheleague.org"
 
+plugins:
+  - jekyll-remote-theme
 
 nav_pages:
   - about.md

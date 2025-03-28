@@ -7,6 +7,8 @@ A really basic Jekyll website in github pages.
 
 * [Quickstart[(https://docs.github.com/en/pages/quickstart])
 
+This example site uses the minima theme. More about the [Minima theme](https://github.com/jekyll/minima)
+
 
 ## Themes
 Here are some other fun themes:
