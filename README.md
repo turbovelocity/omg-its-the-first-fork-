@@ -1,9 +1,9 @@
 # Portfolio-jekyll-barebones
+
 A really basic Jekyll website in github pages. 
 
 
-
-## Themese
+## Themes
 Here are some other fun themes:
 
 - [Minima](https://jekyll.github.io/minima/)  https://github.com/jekyll/minima
