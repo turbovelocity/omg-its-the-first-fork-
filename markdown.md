@@ -1,7 +1,8 @@
 ---
 layout: page
+title: Markdown Guide
+permalink: /markdown/
 ---
-
 
 This is the Index.html file?
 

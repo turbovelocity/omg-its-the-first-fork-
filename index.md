@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Can I put some text here?
+League Student's Project Page
 
 One of my favorite projects is a [simple dino jump game I created](./dino.html).
 It's a browser-based game where a pixelated dinosaur leaps over obstacles to
