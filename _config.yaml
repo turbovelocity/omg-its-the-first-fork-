@@ -2,8 +2,12 @@
 remote_theme: "jekyll/minima@1e8a445"
 
 title: Octocat's homepage
-author: An Amazing Programmer
+
 description: This description goes in the bottom og the page, and in the meta tags.
+
+author:
+  name: Andy M. Azing
+  email: "student@jointheleague.org"
 
 # baseurl: "/Portfolio-jekyll-barebones" # The subpath of your site (if hosted in a subdirectory)
 # url: "https://<your-username>.github.io" # Replace <your-username> with your GitHub username
