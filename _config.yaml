@@ -16,6 +16,7 @@ author:
 
 nav_pages:
   - about.md
+  - markdown.md
 
 minima:
   social_links:
