@@ -25,6 +25,21 @@ social_links:
   instagram: https://www.instagram.com/jointheleague/
 
 
+social_links:
+  - title: X
+    icon: x-twitter
+    url: https://x.com/LEAGUEofAmazing
+  - title:
+    icon: github
+    url: https://github.com/jointheleague
+  - title: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/company/4849605/
+  - title: Instagram
+    icon: instagram
+    url: https://www.instagram.com/jointheleague/
+
+
 markdown: kramdown # Specify the Markdown engine
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown
