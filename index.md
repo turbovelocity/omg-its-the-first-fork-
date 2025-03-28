@@ -9,7 +9,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 [Play a terible Dino Jump game!](./dino.html)
 
 
-[Play a terible Dino Jump game!](./focaccia.html)
+[Foccacia Recipe](./focaccia.html)
 
 There should be whitespace between paragraphs.
 
