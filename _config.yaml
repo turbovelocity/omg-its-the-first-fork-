@@ -19,9 +19,11 @@ nav_pages:
   - about.md
 
 social_links:
-  twitter:https://x.com/LEAGUEofAmazing
+  twitter: https://x.com/LEAGUEofAmazing
   github: https://github.com/jointheleague
   linkedin: https://www.linkedin.com/company/4849605/
+  instagram: https://www.instagram.com/jointheleague/
+
 
 markdown: kramdown # Specify the Markdown engine
 kramdown:
