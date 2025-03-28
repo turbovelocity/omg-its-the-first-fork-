@@ -4,7 +4,6 @@ title: Markdown Guide
 permalink: /markdown/
 ---
 
-This is the Index.html file?
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
