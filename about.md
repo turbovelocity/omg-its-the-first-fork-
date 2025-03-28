@@ -1,3 +1,9 @@
+---
+layout: page
+title: About Me
+permalink: /about/
+---
+
 # About Me
 
 I am a programmer who enjoys solving problems and writing code. My work
