@@ -2,5 +2,38 @@
 remote_theme: "jekyll/minima@1e8a445"
 
 title: Octocat's homepage
+author: An Amazing Programmer
 description: Bookmark this to keep an eye on my project updates!
+
+# baseurl: "/Portfolio-jekyll-barebones" # The subpath of your site (if hosted in a subdirectory)
+# url: "https://<your-username>.github.io" # Replace <your-username> with your GitHub username
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+nav_pages:
+  - about.md
+
+social_links:
+  twitter:https://x.com/LEAGUEofAmazing
+  github: https://github.com/jointheleague
+  linkedin: https://www.linkedin.com/company/4849605/
+
+markdown: kramdown # Specify the Markdown engine
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown
+
+plugins:
+  - jekyll-feed # Add RSS feed support
+  - jekyll-seo-tag # Add SEO tags
+
+paginate: 5 # Number of posts per page for pagination
+
+exclude:
+  - README.md # Exclude README file from the build
+  - node_modules # Exclude node_modules directory
 

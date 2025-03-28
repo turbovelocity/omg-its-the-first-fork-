@@ -103,7 +103,7 @@ end
 
 ### Large image
 
-![Sam](./images/sama_ghibl.jpg)
+![Sam](./images/sama_ghibl.webp)
 
 
 ### Definition lists can be used with HTML syntax.
