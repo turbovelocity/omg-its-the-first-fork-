@@ -1,7 +1,7 @@
 #theme: jekyll-theme-minimal
 remote_theme: "jekyll/minima"
 
-title: Octocat's homepage
+title: League Student Homepage
 
 description: >
   Write an awesome description for your new site here. You can edit this line
@@ -44,7 +44,7 @@ minima:
   #     * solarized-light    Light variant of solarized color scheme.
   #     * solarized-dark     Dark variant of solarized color scheme.
   #     * solarized 
-  skin: dark
+  skin: classic
 
 
 

@@ -59,7 +59,14 @@ For the next few steps, we will follow the [Github Pages Quickstart](https://doc
 
 11. Visit `username.github.io` to view your new website. Note that it can take up to 10 minutes for changes to your site to publish after you push the changes to Github.
 
-## Changing the Title and Description
+
+## 4. Yea! Check your New Site!
+
+If you do no other configuration, you will see a simple page with the title of your
+repository and a link to the README file. You can edit the README file to add
+
+
+## 5. Changing the Title and Description
 
 By default, the title of your site is `username.github.io`. You can change the
 title by editing the `_config.yml` file in your repository. You can also add a
@@ -82,4 +89,29 @@ description for your site.
    description: Bookmark this to keep an eye on my project updates!
    ```
 
+## 6. Local Editing
+
+You can run Jekyll locally on your computer to preview changes before pushing them
+to Github. To do this, you need to install Ruby and Jekyll on your computer. However, we have
+a codespace that is installed with Jekyll and Ruby. You can use the codespace to preview your changes
+before pushing them to Github. To do this, follow these steps:
+
+1. Click the **Code** tab of your repository.
+2. Click the **Code** button and select **Open with Codespaces**.
+3. Click **New codespace**.
+4. Wait for the codespace to load.
+5. In the terminal, run the following command to start the Jekyll server:
+
+   ```bash
+   jekyll serve
+   ```
+6. Open the ports tab on the bottom pane, and look for the port that is running on `4000`. Click the **Open in Browser** button to view your site, to open a new browser tab, or select ** Preview** to open a preview pane in the codespace.
+7. Make changes to your site in the codespace, and refresh the browser tab to see the changes.
+
+## 7. Commit and Publish
+
+Once you are happy with your changes, you can commit them to your repository.
+Committing and pushing changes to your repository is the same as any other
+Github repository, and for a Github pages site, it will automatically publish
+the changes to your site.
 
