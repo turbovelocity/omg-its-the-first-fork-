@@ -5,7 +5,7 @@ A really basic Jekyll website in github pages.
 
 ## Getting started
 
-* [Quickstart[(https://docs.github.com/en/pages/quickstart])
+* [Quickstart](https://docs.github.com/en/pages/quickstart])
 
 
 
