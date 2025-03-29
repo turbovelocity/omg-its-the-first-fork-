@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Markdown Guide
-permalink: /markdown/
 ---
-
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -11,7 +9,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-More about the [Minima theme](https://github.com/jekyll/minima)
+More about the [Minima theme.](https://github.com/jekyll/minima)
 
 # Header 1
 

@@ -1,7 +1,7 @@
 #theme: jekyll-theme-minimal
 remote_theme: "jekyll/minima"
 
-title: League Student Homepage
+title: League Student Portfolio
 
 description: >
   Write an awesome description for your new site here. You can edit this line
@@ -16,12 +16,17 @@ author:
 plugins:
   - jekyll-remote-theme
 
-nav_pages:
-  - about.md
-  - markdown.md
-  - howto.md
+
 
 minima:
+
+  # If you don't define the nav pages here, the
+  # default is to use  all of the pages.
+
+  nav_pages:
+  - about.md
+  - howto.md
+
   social_links:
     - title: X
       icon: x-twitter
