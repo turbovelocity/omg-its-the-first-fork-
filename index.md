@@ -9,8 +9,8 @@ projects, and interests. It is built using Jekyll and hosted on GitHub Pages.
 The template is designed to be easy to customize and adapt to your own style.
 
 To get started with your own portfoilio, you can either [create a new Github repo 
-and setup Github Pages](./howto), or you can fork this repo and edit the files 
-with your own content.
+and setup Github Pages](./howto), or you can [fork this repo](https://github.com/league-curriculum/Portfolio-jekyll-barebones)
+and edit the files  with your own content.
 
 One of my favorite projects is a [simple dino jump game I
 created](./html/dino.html). It's a browser-based game where a pixelated dinosaur
