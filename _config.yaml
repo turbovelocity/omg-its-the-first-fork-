@@ -19,6 +19,7 @@ plugins:
 nav_pages:
   - about.md
   - markdown.md
+  - howto.md
 
 minima:
   social_links:
