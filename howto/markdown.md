@@ -97,8 +97,8 @@ end
 ### Links to HTML pages:
 
 
-* [Play a terible Dino Jump game](./dino.html)
-* [Foccacia Recipe](./focaccia.html)
+* [Play a terrible Dino Jump game]({{ base_url }}/html/dino.html)
+* [Focaccia Recipe]({{ base_url }}/html/focaccia.html)
 
 
 ### Small image
@@ -107,7 +107,7 @@ end
 
 ### Large image
 
-![Sam](./images/sama_ghibl.webp)
+![Sam]({{base_url}}/images/sama_ghibl.webp)
 
 
 ### Definition lists can be used with HTML syntax.
