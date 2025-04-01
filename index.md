@@ -4,6 +4,8 @@ layout: home
 
 # Example Student Portfolio
 
+Follow along online with our [Zoom Session for the Tuesday 1 April Class.](https://us02web.zoom.us/j/89801627815?pwd=50OLJZQrdI3hsAsckgiUSlKeWFncLl.1) 
+
 This site is a simple portfolio template for students to showcase their work, 
 projects, and interests. It is built using Jekyll and hosted on GitHub Pages.
 The template is designed to be easy to customize and adapt to your own style.
