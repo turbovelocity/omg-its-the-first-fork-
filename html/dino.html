@@ -31,7 +31,7 @@
             left: 50px;
             width: 50px;
             height: 50px;
-            background-color: #333;
+            background-color: blue; /* Changed color to blue */
             border-radius: 5px;
         }
         
@@ -90,7 +90,7 @@
         <div id="dino"></div>
         <div id="ground"></div>
         <div id="score">0</div>
-        <div id="game-over">GAME OVER</div>
+        <div id="game-over">u died womp womp wooooooooooooooooooooooooooooooooaaaa</div>
         <button id="restart-btn">RESTART</button>
     </div>
 
@@ -109,6 +109,7 @@
             let gameSpeed = 3;
             let score = 0;
             let isGameOver = false;
+            let jumpCount = 0; // Track the number of jumps
             
             // Jump mechanics
             let position = 0;
@@ -116,8 +117,8 @@
             
             function control(e) {
                 // Jump when spacebar or up arrow is pressed
-                if ((e.code === 'Space' || e.code === 'ArrowUp') && !isJumping && !isGameOver) {
-                    isJumping = true;
+                if ((e.code === 'Space' || e.code === 'ArrowUp') && jumpCount < 2 && !isGameOver) {
+                    jumpCount++;
                     jump();
                 }
                 
@@ -129,12 +130,11 @@
             
             function jump() {
                 let count = 0;
-                position = 0;
+                let currentJumpHeight = jumpCount === 1 ? jumpHeight : jumpHeight / 1; // Half height for second jump
                 
-                // Jump up
                 let jumpInterval = setInterval(() => {
                     // Moving up
-                    position += jumpHeight;
+                    position += currentJumpHeight;
                     position = position * gravity;
                     
                     // Apply position
@@ -151,6 +151,7 @@
                             if (position < 0) {
                                 position = 0;
                                 isJumping = false;
+                                jumpCount = 0; // Reset jump count when on the ground
                                 clearInterval(fallInterval);
                             }
                             
